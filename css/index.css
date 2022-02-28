@@ -1,0 +1,49 @@
+@media screen and (min-width:577px) {
+    .front-h1{
+        position: relative; 
+        left: -30px;
+        bottom: 18px;
+        font-size: 38px;
+    }
+    .showcase-img img{
+        position: relative;
+        left: 30%;
+        width: 25vw;
+        float: right;
+    }
+    .lorem-p-front{
+        width: 40vw;
+    }
+}
+@media screen and (max-width:578px) {
+    .front-h1{
+        position: relative; 
+        /* left: -30px; */
+        top: -17px;
+    }
+    .showcase-img img{
+        /* position: relative;
+        left: 10px; */
+        left: 80%;
+        width: 65vw;
+    }
+    .loremmmm{
+        margin-top: -45px;
+    }
+    .opiop{
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+}
+
+.news-inp{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .news-inp{
+        width: 400px;
+    }
+    
+}
